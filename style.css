@@ -4,6 +4,10 @@
     font-family: 'Montserrat';
 }
 
+body{
+    background-color: #e7e7e7;
+}
+
 h1,h2,body {
     margin: 0;
     padding: 0;
@@ -24,6 +28,7 @@ footer {
     margin: 0 auto;
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .name-text{
@@ -41,15 +46,20 @@ h1 {
 h2 {
     font-size: 20px;
     color: #282828;
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 16px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 .about-me-text{
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.Educational-History{
+    font-size: 12px;
+    line-height: 14px;
 }
 
 section {
